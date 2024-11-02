@@ -1,0 +1,71 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 100vh;
+    background-color: #3498db;
+}
+.container .responsive{
+    width: 85%;
+}
+.responsive .slick-body{
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(245, 193, 114);
+}
+.responsive .slick-body .slick-txt{
+    padding:10px;
+    
+}
+.responsive .slick-body .slick-txt h3{
+    padding: 5px;
+}
+.responsive .slick-body .slick-txt p{
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.responsive .slick-body .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.responsive .slick-body .btn button{
+    padding: 10px 25px;
+    margin-bottom: 5px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: greenyellow;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+}
+.responsive .slick-body .btn button:hover{
+    background-color: white;
+    color: black;
+}
+.responsive .slick-body .slick-img{
+    padding: 5px;
+    border-radius: 20px;
+}
+.responsive .slick-body .slick-img img{
+    width: 100%;
+    border-radius: 20px;
+}
